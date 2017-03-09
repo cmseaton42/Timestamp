@@ -2,7 +2,7 @@ var express = require('express')
 var moment = require('moment');
 
 var app = express();
-var natLang = /(January|February|March|April|May|June|July|August|September|October|November|December)\s(\d\d?).+?(\d\d\d\d)/;
+var natLang = /(January|February|March|April|May|June|July|August|September|October|November|December)\s(\d\d?).+?(\d\d\d\d)/i;
 var unixTime = /\d\d\d\d\d\d\d\d\d\d/;
 
 
